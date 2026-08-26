@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:Diode_DO-35_P10mm"
 			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4517,7 +4517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 136.8552 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4867,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-35"
+		(property "Footprint" "digikey-footprints:DO-41"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5761,7 +5761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 110.49 110.1852 0)
 			(hide yes)
 			(show_name no)
@@ -5923,7 +5923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 177.8 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6008,7 +6008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 122.8852 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6090,7 +6090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-35"
+		(property "Footprint" "digikey-footprints:DO-41"
 			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6194,7 +6194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 173.6852 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 160.02 103.8352 0)
 			(hide yes)
 			(show_name no)
@@ -6652,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D14.5mm_W5.0mm_P10.00mm"
 			(at 130.81 106.3752 0)
 			(hide yes)
 			(show_name no)
