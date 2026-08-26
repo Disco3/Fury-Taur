@@ -1,0 +1,8 @@
+# KiCad backup and local preference files
+*.bak
+*.kicad_prl
+*-bak
+*_bak
+
+# Exclusive lock files
+*.lck
