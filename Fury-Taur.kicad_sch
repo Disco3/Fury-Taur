@@ -3212,6 +3212,12 @@
 		(uuid "3f6d40db-c7f4-4fbf-b77f-a56b3996abd2")
 	)
 	(junction
+		(at 88.9 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bccb352-18ed-4fa2-84ad-4de23ed013af")
+	)
+	(junction
 		(at 173.99 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6068,6 +6074,84 @@
 			(project "Fury-Taur"
 				(path "/9aaae789-b710-4a8a-aadd-535a824b9702"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0fd91d5-ea83-4999-8a7c-16bbedec2667")
+		(property "Reference" "#PWR06"
+			(at 88.9 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb0055ca-ca64-4607-a034-5b70b39616b4")
+		)
+		(instances
+			(project "Fury-Taur"
+				(path "/9aaae789-b710-4a8a-aadd-535a824b9702"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
