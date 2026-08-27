@@ -55,6 +55,13 @@
     )
   )
   (placement
+    (component Custom:Pot_Lug_Jumper_Pads_Above_SW
+      (place RV1J 93000 -65500 front 0 (PN TO_POT_LUGS))
+    )
+    (component "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+      (place "BAT-" 154000 -85500 front 0 (PN "SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"))
+      (place 9V+ 151000 -85500 front 0 (PN "SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"))
+    )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
       (place D3 140500 -71500 front -90 (PN 1N34A))
     )
@@ -65,14 +72,14 @@
       (place D1 145500 -71250 front -90 (PN 1N5817))
     )
     (component MountingHole:ToolingHole_1.152mm
-      (place TH2 154000 -83000 front 0 (PN ToolingHole_1.152mm))
       (place TH1 151000 -83000 front 0 (PN ToolingHole_1.152mm))
+      (place TH2 154000 -83000 front 0 (PN ToolingHole_1.152mm))
     )
     (component Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
       (place R3 143040 -66500 front 0 (PN Gain))
       (place R5 153580 -66500 front 0 (PN Level))
       (place "Q1 Bias" 121040 -85893.7 front 0 (PN 20K))
-      (place "Q2 Bias" 132540 -86093.1 front 0 (PN 20K))
+      (place "Q2 Bias" 132540 -85893.7 front 0 (PN 20K))
     )
     (component Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
       (place C4 126614.5 -67000 front 180 (PN 100nf))
@@ -99,12 +106,6 @@
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
       (place R1 101000 -76300 front 0 (PN 1M))
     )
-    (component Custom:Pot_Lug_Jumper_Pads_Above_SW
-      (place RV1J 93000 -65500 front 0 (PN TO_POT_LUGS))
-    )
-    (component "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-      (place 9V+ 151000 -85500 front 0 (PN "SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"))
-    )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::1
       (place R2 111500 -83000 front 90 (PN 33K))
     )
@@ -123,11 +124,23 @@
     (component Custom:Alpha_PushPull_DirectSwitch_TightSlots
       (place SW1 93000 -77500 front 0 (PN ALPHA_PUSH_PULL))
     )
-    (component "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm::1"
-      (place "9V-" 154000 -85500 front 0 (PN "SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"))
-    )
   )
   (library
+    (image Custom:Pot_Lug_Jumper_Pads_Above_SW
+      (pin Round[A]Pad_1450.000000_um 1 -5000 0)
+      (pin Round[A]Pad_1450.000000_um 2 0 0)
+      (pin Round[A]Pad_1450.000000_um 3 5000 0)
+    )
+    (image "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+      (outline (polygon signal 0  1345 -1345  -1345 -1345  -1345 1345  1345 1345))
+      (outline (path signal 100  500 0  481.459 -134.898  427.21 -259.792  341.277 -365.418
+            230.033 -443.943  101.728 -489.542  -34.121 -498.834  -167.44 -471.13
+            -288.34 -408.485  -387.856 -315.544  -458.606 -199.201  -495.343 -68.083
+            -495.343 68.083  -458.606 199.201  -387.856 315.544  -288.34 408.485
+            -167.44 471.13  -34.121 498.834  101.728 489.542  230.033 443.943
+            341.277 365.418  427.21 259.792  481.459 134.898  500 0))
+      (pin RoundRect[A]Pad_1700.000000x1700.000000_250.951000_um_0.000000_0 1 0 0)
+    )
     (image "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
       (outline (polygon signal 0  11505 1595  11505 -1595  -1345 -1595  -1345 1595))
       (outline (path signal 120  1340 0  2360 0))
@@ -187,8 +200,8 @@
             -462.548 -522.113  -574.061 -396.242  -652.205 -247.35  -692.448 -84.077
             -692.448 84.078  -652.205 247.351  -574.061 396.243  -462.548 522.114
             -324.161 617.636  -166.933 677.264  0 697.533))
-      (keepout "" (circle F.Cu 1552))
-      (keepout "" (circle B.Cu 1552))
+      (keepout "" (circle F.Cu 1900))
+      (keepout "" (circle B.Cu 1900))
       (wire_keepout "" (polygon F.Cu 0  700 0  679.659 167.521  619.819 325.306  523.958 464.186
             397.645 576.089  248.223 654.511  84.376 694.896  -84.376 694.896
             -248.223 654.511  -397.645 576.089  -523.958 464.186  -619.819 325.306
@@ -449,21 +462,6 @@
       (pin Round[A]Pad_1400.000000_um 2 7620 0)
       (pin Round[A]Pad_1400.000000_um 1 0 0)
     )
-    (image Custom:Pot_Lug_Jumper_Pads_Above_SW
-      (pin Round[A]Pad_1450.000000_um 3 5000 0)
-      (pin Round[A]Pad_1450.000000_um 2 0 0)
-      (pin Round[A]Pad_1450.000000_um 1 -5000 0)
-    )
-    (image "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-      (outline (polygon signal 0  1345 -1345  -1345 -1345  -1345 1345  1345 1345))
-      (outline (path signal 100  500 0  481.459 -134.898  427.21 -259.792  341.277 -365.418
-            230.033 -443.943  101.728 -489.542  -34.121 -498.834  -167.44 -471.13
-            -288.34 -408.485  -387.856 -315.544  -458.606 -199.201  -495.343 -68.083
-            -495.343 68.083  -458.606 199.201  -387.856 315.544  -288.34 408.485
-            -167.44 471.13  -34.121 498.834  101.728 489.542  230.033 443.943
-            341.277 365.418  427.21 259.792  481.459 134.898  500 0))
-      (pin RoundRect[A]Pad_1700.000000x1700.000000_250.951000_um_0.000000_0 1 0 0)
-    )
     (image Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::1
       (outline (polygon signal 0  -945 -1045  -945 1045  8565 1045  8565 -1045))
       (outline (path signal 100  2010 800  2010 -800  5610 -800  5610 800  2010 800))
@@ -592,16 +590,6 @@
       (pin Oval[A]Pad_1200.000000x3200.000000_um 6 -2500 -4000)
       (pin Oval[A]Pad_1200.000000x3200.000000_um 5 -2500 0)
       (pin Oval[A]Pad_1200.000000x3200.000000_um 4 -2500 4000)
-    )
-    (image "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm::1"
-      (outline (polygon signal 0  1345 -1345  -1345 -1345  -1345 1345  1345 1345))
-      (outline (path signal 100  500 0  481.459 -134.898  427.21 -259.792  341.277 -365.418
-            230.033 -443.943  101.728 -489.542  -34.121 -498.834  -167.44 -471.13
-            -288.34 -408.485  -387.856 -315.544  -458.606 -199.201  -495.343 -68.083
-            -495.343 68.083  -458.606 199.201  -387.856 315.544  -288.34 408.485
-            -167.44 471.13  -34.121 498.834  101.728 489.542  230.033 443.943
-            341.277 365.418  427.21 259.792  481.459 134.898  500 0))
-      (pin RoundRect[A]Pad_1700.000000x1700.000000_250.951000_um_0.000000_0 1 0 -199.375)
     )
     (padstack Round[A]Pad_1400.000000_um
       (shape (circle F.Cu 1400))
@@ -767,8 +755,8 @@
       (pins R3-2 Q2-3)
     )
     (net GND
-      (pins D3-2 D2-1 R3-3 C4-2 J1-2 J1-1 R5-3 PushPushGround-10 C5-2 Q2-2 R1-2 RV1J-1
-        J2-3 SW1-10 Q1-2)
+      (pins RV1J-1 D3-2 D2-1 R3-3 C4-2 J1-2 J1-1 R5-3 PushPushGround-10 C5-2 Q2-2
+        R1-2 J2-3 SW1-10 Q1-2)
     )
     (net "Net-(D1-K)"
       (pins D1-1 C4-1 C7-1 C5-1 C2-1 "Q1 Bias"-2 "Q1 Bias"-1 "Q2 Bias"-2 "Q2 Bias"-1)
@@ -777,7 +765,7 @@
       (pins J1-4 J1-3)
     )
     (net PU_NORTH_START
-      (pins J1-5 RV1J-3)
+      (pins RV1J-3 J1-5)
     )
     (net "Net-(SW2-B)"
       (pins R5-1 R4-2 SW2-2)
@@ -813,7 +801,7 @@
       (pins J2-1 SW1-8)
     )
     (net "BAT -"
-      (pins J2-2 "9V-"-1)
+      (pins "BAT-"-1 J2-2)
     )
     (net "Net-(D2-A)"
       (pins D3-1 D2-2 SW2-3)
