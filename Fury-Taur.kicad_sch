@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Diode_DO-35_P10mm"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5138,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-41"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +6356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-41"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
