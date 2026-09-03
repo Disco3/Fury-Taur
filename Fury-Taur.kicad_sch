@@ -3734,12 +3734,6 @@
 		(uuid "2edd5a0b-1897-4cdb-9575-3c8a3e9119db")
 	)
 	(junction
-		(at 135.89 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f6d40db-c7f4-4fbf-b77f-a56b3996abd2")
-	)
-	(junction
 		(at 88.9 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3804,12 +3798,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c33c9991-f76c-42fa-b23a-a79997722f5c")
-	)
-	(junction
-		(at 147.32 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3c65677-4942-44df-9665-066ff410d343")
 	)
 	(junction
 		(at 119.38 82.55)
@@ -3990,26 +3978,6 @@
 			(type default)
 		)
 		(uuid "21e5d6b3-6675-40f7-8a84-f2f3c0855f2c")
-	)
-	(wire
-		(pts
-			(xy 123.19 82.55) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23980b4b-5113-4f0b-865b-7f6ba454d301")
-	)
-	(wire
-		(pts
-			(xy 135.89 90.17) (xy 147.32 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247830b7-0ad4-4e9f-9fdd-38cce9756965")
 	)
 	(wire
 		(pts
@@ -4523,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 147.32 82.55)
+			(xy 123.19 82.55) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5159,88 +5127,6 @@
 			(project "Fury-Taur"
 				(path "/9aaae789-b710-4a8a-aadd-535a824b9702"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bd9e90f-af3a-4de7-a764-00b420e80934")
-		(property "Reference" "C4"
-			(at 139.7 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 139.7 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
-			(at 136.8552 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19cd678c-7bcd-48ca-b0d2-4061022fdf16")
-		)
-		(pin "2"
-			(uuid "c1eb4cdd-bc6e-45cd-8ceb-700c9d0839f2")
-		)
-		(instances
-			(project "Fury-Taur"
-				(path "/9aaae789-b710-4a8a-aadd-535a824b9702"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uf"
+		(property "Value" "100uf"
 			(at 151.13 87.8839 0)
 			(show_name no)
 			(do_not_autoplace no)
