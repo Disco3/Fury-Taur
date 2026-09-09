@@ -49,12 +49,12 @@
   )
   (placement
     (component TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
-      (place "Q2 Test" 151500 -64500 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
+      (place "Q2 Test" 151500 -65301.7 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
     )
     (component TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm::1
-      (place GND 151500 -66500 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
-      (place 9V 149500 -66500 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
-      (place "Q1 Test" 149500 -64500 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
+      (place GND 151500 -67301.7 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
+      (place 9V 149500 -67301.7 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
+      (place "Q1 Test" 149500 -65301.7 front 0 (PN TestPoint_THTPad_1.0x1.0mm_Drill0.5mm))
     )
     (component Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
       (place R3 134880 -66000 front 0 (PN Gain))
