@@ -1,4 +1,4 @@
-(pcb "/Users/George/Downloads/Fury/temp-freerouting.dsn"
+(pcb freerouting.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
