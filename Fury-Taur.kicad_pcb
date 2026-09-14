@@ -1773,78 +1773,6 @@
 			)
 		)
 	)
-	(footprint "Custom:PushPushGround"
-		(layer "F.Cu")
-		(uuid "389f170e-84cb-4b27-9c54-79d985ec005a")
-		(at 87.75 86.4)
-		(property "Reference" "PushPushGround"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6473edef-e589-46d6-8915-f9d3d5285b7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "dbda44e7-07bf-4c84-a961-f2cc4f251a43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb3424db-70e9-4c43-82da-9a7b2f85c86d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daac3e4f-48d1-47a0-9a96-ce2e754cc6b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "10" thru_hole oval
-			(at 0 0)
-			(size 3 1.2)
-			(drill oval 2.75 0.95)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers yes)
-			(keep_end_layers yes)
-			(zone_layer_connections)
-			(net "GND")
-			(teardrops
-				(best_length_ratio 0.5)
-				(max_length 1)
-				(best_width_ratio 1)
-				(max_width 2)
-				(curved_edges no)
-				(filter_ratio 0.9)
-				(enabled yes)
-				(allow_two_segments yes)
-				(prefer_zone_connections yes)
-			)
-			(uuid "bc440287-0ae8-4e6b-aabf-b315e6ac3828")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "40c4ea98-2a19-4f77-9eff-a03adb5c74c1")
@@ -6100,7 +6028,7 @@
 			(at 0 -5.1 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dff29b1b-a733-4201-9ecd-b5db7c86ae36")
+			(uuid "9d276fa1-626f-4e0e-a7e4-f10b3b856ad4")
 			(effects
 				(font
 					(size 0.48 0.48)
@@ -6112,7 +6040,7 @@
 			(at 0 9.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "288d3375-5024-4373-99a6-4a5bcf8eeddd")
+			(uuid "fae88240-1d6b-49f7-bb14-593cf4cf1989")
 			(effects
 				(font
 					(size 0.36 0.36)
@@ -6124,7 +6052,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a795cab-f9a6-4c7b-89cf-ef6b88ad99a1")
+			(uuid "c5c4b283-7a69-4eeb-8b4e-7a8f10ff79eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6063,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "242ab2f3-1ce0-4b82-a7b9-c09a2c42fdff")
+			(uuid "dcfd189b-70ac-419e-bae7-c1a1fbed0e29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,8 +6072,20 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -3.45 -4.75)
-			(end 3.45 4.75)
+			(start -8.4 -15.85)
+			(end 8.4 -6.25)
+			(radius 0.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6116e577-cdd2-4f0d-9330-dfc12b4efa62")
+		)
+		(fp_rect
+			(start -6.125 -6.25)
+			(end 6.125 9.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6308,13 +6248,35 @@
 			)
 			(uuid "55637e99-e34b-4d03-bd13-663356d4d9ef")
 		)
+		(pad "11" thru_hole oval
+			(at -5.25 8.9)
+			(size 3 1.2)
+			(drill oval 2.75 0.95)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net "GND")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "df6fcef3-17c7-4d25-a57e-932d3cd4c950")
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/PushPullSwitch.3dshapes/User Library-Switch_Pot_Small_Shaft.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/PushPullSwitch.3dshapes/User Library-Switch_Pot_Small_Shaft.step"
 			(offset
 				(xyz 9 8 -7)
 			)
 			(scale
-				(xyz 1 0.9 1)
+				(xyz 1 1.05 1.04)
 			)
 			(rotate
 				(xyz -90 -180 -0)
@@ -7379,17 +7341,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_rect
-		(start 86.5 70)
-		(end 99.5 85)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "7f6828ef-1daf-4896-93cd-620b2e635ad3")
 	)
 	(gr_arc
 		(start 78.2 65)
