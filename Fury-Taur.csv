@@ -1,19 +1,20 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"C1, C6";"C_Disc_D7.0mm_W2.5mm_P5.00mm";2;"10nf";;;
-2;"C2, C7";"C_Disc_D4.7mm_W2.5mm_P5.00mm";2;"47pf";;;
-3;"C5";"C_Radial_D5.0mm_H11.0mm_P2.00mm";1;"100μF";;;
-4;"D1";"D_DO-35_SOD27_P10.16mm_Horizontal";1;"1N5817";;;
-5;"D2, D3";"D_DO-41_SOD81_P10.16mm_Horizontal";2;"1N34A";;;
-6;"J1";"TerminalBlock_4Ucon_1x05_P3.50mm_Horizontal";1;"Pickup";;;
-7;"J2";"TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal";1;"Output";;;
-8;"PushPushGround";"PushPushGround";1;"";;;
-9;"Q1, Q2";"TO-92L_HandSolder";2;"J201";;;
-10;"Q1 Bias, Q2 Bias";"Potentiometer_Bourns_3296W_Vertical";2;"20K";;;
-11;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"1M";;;
-12;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"33K";;;
-13;"R3";"Potentiometer_Bourns_3296W_Vertical";1;"Gain";;;
-14;"R4";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"100";;;
-15;"R5";"Potentiometer_Bourns_3296W_Vertical";1;"Level";;;
-16;"RV1J";"Pot_Lug_Jumper_Pads_Above_SW";1;"TO_POT_LUGS";;;
-17;"SW1";"Alpha_PushPull_DirectSwitch_TightSlots";1;"ALPHA_PUSH_PULL";;;
-18;"SW2";"SW_Slide_SPDT_Straight_CK_OS102011MS2Q";1;"SW_SPDT";;;
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
+"C1,C6","2","10nf","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm",""
+"C2,C7","2","47pf","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm",""
+"C3","1","4.7nf","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",""
+"C5","1","100uf","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",""
+"D1","1","1N5817","","","","","${EXCLUDE_FROM_POS_FILES}","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",""
+"D2,D3","2","1N34A","","","","","${EXCLUDE_FROM_POS_FILES}","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",""
+"J1","1","Pickup","","","","","${EXCLUDE_FROM_POS_FILES}","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal",""
+"J2","1","Output","","","","","${EXCLUDE_FROM_POS_FILES}","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal",""
+"J3","1","Audio Out","","","Excluded from board","","${EXCLUDE_FROM_POS_FILES}","",""
+"L1","1","North","","","Excluded from board","","${EXCLUDE_FROM_POS_FILES}","",""
+"L2","1","South","","","Excluded from board","","${EXCLUDE_FROM_POS_FILES}","",""
+"Q1,Q2","2","J201","","","","","${EXCLUDE_FROM_POS_FILES}","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.interfet.com/jfet-datasheets/jfet-j201-j202-interfet.pdf"
+"R1","1","1M","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
+"R2","1","33K","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
+"R3,R5","2","100K A","","","","","${EXCLUDE_FROM_POS_FILES}","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical",""
+"R4","1","100","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","14"
+"RV1","1","","","","","","${EXCLUDE_FROM_POS_FILES}","Custom:PushPull_Pot_DPDT",""
+"RV2,RV3","2","20K","","","","","${EXCLUDE_FROM_POS_FILES}","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical",""
+"SW2","1","SW_SPDT","","","","","${EXCLUDE_FROM_POS_FILES}","Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q",""
